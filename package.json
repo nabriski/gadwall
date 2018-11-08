@@ -1,0 +1,23 @@
+{
+  "name": "gadwall",
+  "version": "1.0.0",
+  "description": "gadwall js cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "keywords": [
+    "gadwall",
+    "javascript",
+    "cli",
+    "interpreter",
+    "repl",
+    "REPL"
+  ],
+  "author": "nabriski",
+  "license": "MIT",
+  "dependencies": {
+    "get-stdin": "^6.0.0",
+    "vm2": "^3.6.4"
+  }
+}
