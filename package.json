@@ -6,6 +6,10 @@
   "bin": {
     "gadwall": "./index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nabriski/gadwall.git"
+  },
   "scripts": {
     "test": "tap test/*.js"
   },
@@ -20,6 +24,10 @@
     "get-stdin": "^6.0.0",
     "vm2": "^3.6.4"
   },
+  "bugs": {
+    "url": "https://github.com/nabriski/gadwall/issues"
+  },
+  "homepage": "https://github.com/nabriski/gadwall#readme",
   "devDependencies": {
     "shelljs": "^0.8.2",
     "tap": "^12.0.1"
