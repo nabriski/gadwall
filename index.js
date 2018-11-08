@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const getStdin  = require("get-stdin");
 const {NodeVM} = require('vm2');
 

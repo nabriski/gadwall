@@ -3,16 +3,16 @@
   "version": "1.0.0",
   "description": "gadwall js cli",
   "main": "index.js",
+  "bin": {
+      "gadwall": "./index.js"
+  },
   "scripts": {
     "test": "tap test/*.js"
   },
   "keywords": [
     "gadwall",
     "javascript",
-    "cli",
-    "interpreter",
-    "repl",
-    "REPL"
+    "cli"
   ],
   "author": "nabriski",
   "license": "MIT",
